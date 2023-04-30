@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    border: 1px solid #F8F9FD;
+    position: relative;
+    background-color: #F8F9FD;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    margin-left: 90px;
+    color: #000000;
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-left: 250px;
+    display: inline;
+}
+
+.buttons button {
+    height: 35px;
+    width: 75px;
+}
+
+.contact {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 8px;
+    background-color: #00000000;
+    margin-right: 10px;
+}
+
+.sign {
+    background-color: #071A29;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+}
+
+.logo h1 {
+    color: #907BFE;
+}
+
+.main {
+    height: 600px;
+    width: 600px;
+    margin-left: 110px;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.radius {
+    border-radius: 15px;
+    border-style: none;
+    background-color: #E5ECFC;
+    width: fit-content;
+    padding: 3px;
+}
+
+.radius p {
+    padding: 5px;
+    color: #907BFE;
+}
+
+.main h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.main .h {
+    margin-top: 20px;
+}
+
+.book {
+    margin-top: 20px;
+    width: 170px;
+    height: 35px;
+    border-style: none;
+    color: white;
+    background-color: #907BFE;
+    border-radius: 7px;
+}
+
+.main2 {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.main2 img {
+    margin-left: 20px;
+}
+
+.contanier {
+    width: 100%;
+    height: 600px;
+    background-color: #F8F9FD;
+}
+
+.son h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box1 {
+    border-right: 2px solid rgb(185, 185, 185);
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.box2 {
+    border-right: 2px solid rgb(185, 185, 185);
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    position: relative;
+}
+
+.box3 {
+    border-right: 2px solid rgb(185, 185, 185);
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+}
+
+.foot span {
+    color: #907BFE;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+.foot h3 {
+    margin-left: 80px;
+}
